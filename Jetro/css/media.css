@@ -1,0 +1,44 @@
+@media (max-width: 930px){
+	.header__menu-btn{
+		display: block;
+	}
+	.header__menu-list{
+		display: none;
+	}
+	.header__menu-list ul{
+		display: none;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		z-index: 2;
+		background-color: #fff;
+	}
+	.header__menu-list li{
+		display: block;
+		text-align: left;
+		width: 100%;
+	}
+	.header__menu-list li + li{
+		padding-left: 0px;
+	}
+	.list__item{
+		display: block;
+
+	}
+	.thumbs{
+		display: none;
+	}
+	.articles__flex{
+		display: block;
+	}
+	.article__item{
+		width: 100%;
+		margin-bottom: 31px;
+		height:  auto;
+	}
+	.article__item + .article__item{
+		margin-left: 0;
+	}
+}
